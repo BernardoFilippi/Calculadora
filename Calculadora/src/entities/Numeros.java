@@ -1,0 +1,53 @@
+package entities;
+
+
+public class Numeros {
+	
+	private String type;
+	private Double first;
+	private Double second;
+	
+
+	public Numeros() {
+        
+    }
+	
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public Double getFirst() {
+		return first;
+	}
+
+	public void setFirst(Double first) {
+		this.first = first;
+	}
+
+	public Double getSecond() {
+		return second;
+	}
+
+	public void setSecond(Double second) {
+		this.second = second;
+	}
+
+	public Double Calc() {
+		Double soma = 0.0;
+		if(type=="/") {
+			return soma=first/second;
+		}else if(type=="+"){
+			return soma=first+second;
+		}else if(type=="-"){
+			return soma=first-second;
+		}else if(type=="*") {
+			return soma=first*second;
+		}
+		return soma;
+	}
+}

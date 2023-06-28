@@ -1,0 +1,12 @@
+package entities;
+
+import java.util.List;
+
+public class Calculos extends Numeros{
+
+	public Calculos(List<Double> lista) {
+		super(lista);
+		
+	}
+	public Double Vezes(List<Double> lista);
+}

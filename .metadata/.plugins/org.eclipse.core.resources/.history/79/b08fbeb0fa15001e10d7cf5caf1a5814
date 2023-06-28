@@ -1,0 +1,29 @@
+package entities;
+
+import java.util.List;
+
+public class Numeros {
+	
+	private String type;
+	private List<Double> listaNumeros;
+	
+	
+	
+	public Numeros(String type) {
+		this.type = type;
+	}
+
+
+	public Numeros(List<Double> lista) {
+        this.listaNumeros = lista;
+    }
+	
+	
+	public Double Calc() {
+		Double soma = 0.0;
+		for(Double e : listaNumeros) {
+			soma=Double.parseDouble(type+e);
+		}
+		return soma;
+	}
+}

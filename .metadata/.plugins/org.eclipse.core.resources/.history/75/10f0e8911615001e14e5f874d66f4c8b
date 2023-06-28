@@ -1,0 +1,42 @@
+package entities;
+
+import java.util.List;
+
+public class Numeros {
+	
+	private List<Double> listaNumeros;
+	
+	public Numeros(List<Double> lista) {
+        this.listaNumeros = lista;
+    }
+	
+	
+	public Double Vezes() {
+		Double soma = 0.0;
+		for(Double e : listaNumeros) {
+			soma*=e;
+		}
+		return soma;
+	}
+	public Double Vezes() {
+		Double soma = 0.0;
+		for(Double e : listaNumeros) {
+			soma*=e;
+		}
+		return soma;
+	}
+	public Double Menos() {
+		Double soma = 0.0;
+		for(Double e : listaNumeros) {
+			soma*=e;
+		}
+		return soma;
+	}
+	public Double Mais() {
+		Double soma = 0.0;
+		for(Double e : listaNumeros) {
+			soma*=e;
+		}
+		return soma;
+	}
+}
